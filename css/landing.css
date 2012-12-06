@@ -1,0 +1,75 @@
+/**************************
+ * LANDING DIV
+ **************************/
+#landing {
+   position: absolute;
+   left: 0;
+   top: 0;
+   
+   width: 90%;
+   height: 90%;
+   padding: 5%;
+   background: #fff;
+   
+   z-index: 999;
+}
+
+#landing > .logo { width:100%; margin-bottom:30px; text-align: center; }
+#landing .body { width: 750px; margin: auto; }
+#landing .body .right { float: right; text-align: center; }
+#landing .body .right #square { width: 304px; margin-top: 10px; }
+#landing .body .left { float: left; overflow: visible; }
+
+/**************************
+ * CLOCK
+ **************************/
+#landing #ding img { height: 118px; } 
+#landing #ding {
+   position: relative;  
+   float: left;
+   left: -89px;
+   top: -38px;
+}
+#landing #clock {
+   position: relative;
+   width: 237px;
+   height: 257px;
+   margin: 20px auto 0 auto;
+   background: url(../img/landing/reloj.png) no-repeat no-repeat center center;
+   list-style: none;
+}
+
+#landing #sec {
+   position: absolute;
+   width: 22px;
+   height: 124px;
+   top: 84px;
+   left: 107px;
+   background: url(../img/landing/manecilla.png);
+   z-index: 3;
+   
+   -webkit-animation: 4s clock-animation linear;
+   -moz-animation: 4s clock-animation linear;
+   -ms-animation: 4s clock-animation linear;
+   animation: 4s clock-animation linear;
+}
+
+@-webkit-keyframes clock-animation {
+   0% { -webkit-transform: rotateZ(0deg); }   
+   100% { -webkit-transform: rotateZ(360deg); }
+}
+
+@-moz-keyframes clock-animation{
+   0% { -moz-transform: rotateZ(0deg); }
+   100% { -moz-transform: rotateZ(360deg); }
+}
+
+@-ms-keyframes clock-animation {
+   0% { -ms-transform: rotateZ(0deg); }
+   100% { -ms-transform: rotateZ(360deg); }
+}
+
+@keyframes clock-animation {
+   0% { transform: rotateZ(0deg); }
+   100% { transform: rotateZ(360deg); }
+}

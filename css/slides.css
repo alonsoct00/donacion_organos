@@ -1,0 +1,194 @@
+﻿body {
+   font-family: 'Gudea', sans-serif;
+   background: #FBDDDF;
+}
+
+/**************************
+ * PIVOTS
+ **************************/
+.pivot {
+   position: absolute;
+   display: block;
+   overflow: visible;
+   height: 100px;
+   width: 100px;
+   z-index: 99;
+}
+
+.pivot.left {
+   left: -30px;
+   top: 0;
+   -webkit-transform: rotateZ(90deg);
+   -moz-transform: rotateZ(90deg);
+   -ms-transform: rotateZ(90deg);
+   transform: rotateZ(90deg);
+}
+.pivot.right {
+   right: -30px;
+   bottom: 0;
+   -webkit-transform: rotateZ(-90deg);
+   -moz-transform: rotateZ(-90deg);
+   -ms-transform: rotateZ(-90deg);
+   transform: rotateZ(-90deg);
+}
+.pivot.top {
+   right: 20px;
+   top: -30px;
+   -webkit-transform: rotateZ(-180deg);
+   -moz-transform: rotateZ(-180deg);
+   -ms-transform: rotateZ(-180deg);
+   transform: rotateZ(-180deg);
+}
+.pivot.bottom {
+   left: 20px;
+   bottom: -30px;
+}
+
+.pivot img {
+   max-height: 75px;
+   cursor: pointer;
+}
+
+/**************************
+ * SLIDE
+ **************************/
+.reveal .slides {
+   top: 58%;
+}
+
+div.slide, .slide div {
+   
+}
+.slide {
+   height: 480px;
+   width: 100%;
+   background-color: white;
+   border-style: solid;
+   border-radius: 10px;
+   border-color: #D9D9D9;
+   border-width: 4px;
+}
+
+.slide > .header {
+   height: 50px;
+   margin: 14px 14px 20px 14px;
+}
+.slide > .header > div {
+   height: 50px;
+}
+.slide > .header .left {
+   float: left;
+}
+.slide > .header .right {
+   float: right;
+}
+.slide > .body {
+   padding: 10px;
+   width: 100%;
+}
+.slide > .footer {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+}
+
+/**************************
+ * SLIDE > START          *
+ **************************/
+#inicio .slide {
+   background: #fff url(../img/titulos/inicio.png) no-repeat no-repeat top right;
+}
+
+/**************************
+ * SLIDE > SHARE
+ **************************/
+#difusion .slide {
+   background: #fff url(../img/titulos/comparte.png) no-repeat no-repeat top right;
+}
+#difusion #share-buttons {
+   height: 65px;
+   padding-left: 75px;
+   margin-top: 17px;
+}
+#difusion #share-buttons img {
+   height: 45px;
+   margin-left: 74px;
+   float: left;
+}
+
+#share-buttons #share_f{ float: left; height: 45px; width: 110px; display: inline-block; background-image: url(../img/difusion/facebook_.png); background-repeat: no-repeat; background-position: center center; }
+#share-buttons #share_t{ float: left; height: 45px; width: 110px; display: inline-block; background-image: url(../img/difusion/twitter_.png); background-repeat: no-repeat; background-position: center center;  }
+#share-buttons #share_m{ float: left; height: 45px; width: 110px; display: inline-block; background-image: url(../img/difusion/email_.png); background-repeat: no-repeat; background-position: center center;  }
+
+#share-buttons #share_f:hover{background-image: url(../img/difusion/facebook.png); background-repeat: no-repeat; background-position: center center;}
+#share-buttons #share_t:hover{background-image: url(../img/difusion/twitter.png); background-repeat: no-repeat; background-position: center center;}
+#share-buttons #share_m:hover{background-image: url(../img/difusion/email.png); background-repeat: no-repeat; background-position: center center;}
+
+
+#difusion #life-heroes {
+   overflow: hidden;
+   height: 250px;
+   width: 70%;
+   margin: auto;
+}
+#difusion #top-line {
+   font-size: 13pt;
+}
+#difusion #bottom-line {
+   font-size: 15pt;
+   font-weight: 600;
+}
+
+/**************************
+ * SLIDE > PREVENT
+ **************************/
+#prevencion .slide {
+   background: #fff url(../img/titulos/cuidate.png) no-repeat no-repeat top right;
+}
+#prevencion .emphasis {
+   color: #C54B1E;
+}
+
+/**************************
+ * SLIDE > BE A DONOR
+ **************************/
+#se-donante .slide {
+   background: #fff url(../img/titulos/se_donante.png) no-repeat no-repeat top right;
+}
+#se-donante .body > .left {
+   float: left;
+   width: 40%;
+   margin-left: 24px;
+}
+
+.download{ height: 45px; width: 130px; display: block; background-image: url(../img/se_donante/descargar_.png); background-repeat: no-repeat; background-position: center center; margin: auto; }
+.download:hover{ background-image: url(../img/se_donante/descargar.png); background-repeat: no-repeat; background-position: center center; }
+
+#se-donante .body > .right {
+   float: right;
+   width: 40%;
+   margin-right: 24px;
+}
+
+#se-donante p { margin-bottom: 20px; clear: both; text-align: center; }
+#se-donante .body #descarga {
+   margin-right: 17px;
+   font-size: 10pt;
+   text-align: left;
+}
+#se-donante .body #donador-voluntario {
+   color: #C54B1E;
+   font-size: 23pt;
+   font-weight: 600;
+}
+#se-donante .body #donador-voluntario span {
+   font-size: 10pt;
+   vertical-align: top;
+}
+#se-donante .body #imprimela {
+   font-size: 14pt;
+}
+#se-donante .body #llevala {
+   font-size: 15pt;
+   font-weight: 600;
+}

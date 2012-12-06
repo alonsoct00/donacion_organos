@@ -1,0 +1,168 @@
+﻿#prevencion .body {
+   padding-left: 78px;
+}
+
+/*****************************
+ * BARRAS + CONTENEDORES
+ *****************************/
+.container-column {
+   height: 360px;
+   float: left;
+   margin: 0 17px 0 0;
+}
+
+#container-botones {
+   width: 206px;
+   font-weight: 600;
+   font-size: 13pt;
+}
+
+#container-preguntas-recomendacion {
+   width: 300px;
+}
+#container-resultados-iconos {
+   margin: 23px 0 23px;
+   height: 50px;
+}
+#container-recomendacion-texto {
+   height: 175px;
+}
+#container-man {
+   width: 200px;
+}
+
+/*****************************
+ * BOTONES
+ *****************************/
+.boton-organo {
+   width: 83px;
+   height: 46px;
+   background: transparent none no-repeat scroll left top;
+   margin: 15px auto 15px auto;
+   cursor: pointer;
+}
+
+#boton-corazon {
+   background-image: url('../img/prevencion/btn-corazon_.png');
+}
+#boton-corazon:hover {
+   background-image: url('../img/prevencion/btn-corazon-overlay.png');
+}
+#boton-corazon-pressed {
+   background-image: url('../img/prevencion/btn-corazon-pressed.png');
+}
+
+#boton-higado {
+   background-image: url('../img/prevencion/btn-higado_.png');
+}
+#boton-higado:hover {
+   background-image: url('../img/prevencion/btn-higado-overlay.png');
+}
+#boton-higado-pressed {
+   background-image: url('../img/prevencion/btn-higado-pressed.png');
+}
+
+#boton-pulmon {
+   background-image: url('../img/prevencion/btn-pulmon_.png');
+}
+#boton-pulmon:hover {
+   background-image: url('../img/prevencion/btn-pulmon-overlay.png');
+}
+#boton-pulmon-pressed {
+   background-image: url('../img/prevencion/btn-pulmon-pressed.png');
+}
+
+#boton-rinon {
+   background-image: url('../img/prevencion/btn-rinon_.png');
+}
+#boton-rinon:hover {
+   background-image: url('../img/prevencion/btn-rinon-overlay.png');
+}
+#boton-rinon-pressed {
+   background-image: url('../img/prevencion/btn-rinon-pressed.png');
+}
+
+/*****************************
+ * PREGUNTAS
+ *****************************/
+#container-preguntas-recomendacion table th {
+   color: #F17125;
+   font-size: 13pt;
+   font-weight: 400;
+}
+
+#container-preguntas-recomendacion table #organo {
+   color: #C54B1E;
+   font-size: 20pt;
+   font-weight: 600;
+}
+
+#container-preguntas-recomendacion table {
+   font-size: 12pt;
+}
+
+/*****************************
+ * RECOMENDACIONES
+ *****************************/
+#container-recomendaciones {
+   text-align: left;
+}
+#container-recomendaciones span {
+   color: #C54B1E;
+   font-size: 20pt;
+   font-weight: 600;
+}
+
+/*****************************
+ * ICONOS DE RESULTADO
+ *****************************/
+.icono-resultado {
+   height: 46px;
+   width: 46px;
+   float: left;
+   margin: 0 0 0 20px;
+   background: transparent none no-repeat scroll 1px 1px;
+   background-size: 90%;
+}
+
+.icono-resultado-green {
+   background-image: url('../img/prevencion/icon-back-green.png');
+}
+.icono-resultado-yellow {
+   background-image: url('../img/prevencion/icon-back-yellow.png');
+}
+.icono-resultado-red {
+   background-image: url('../img/prevencion/icon-back-red.png');
+}
+
+/*****************************
+ * MAN
+ *****************************/
+#container-man {
+   font-size: 17pt;
+   text-align: left;
+   background: url('../img/prevencion/man.png') no-repeat no-repeat center center;
+}
+.container-man .happy {
+   font-size: 17pt;
+   text-align: left;
+   background: url('../img/prevencion/man_salud.png') no-repeat no-repeat center center;
+}
+.container-man .neutral {
+   font-size: 17pt;
+   text-align: left;
+   background: url('../img/prevencion/man_cuidado.png') no-repeat no-repeat center center;
+}
+.container-man .sad {
+   font-size: 17pt;
+   text-align: left;
+   background: url('../img/prevencion/man_alerta.png') no-repeat no-repeat center center;
+}
+#container-man span {
+   color: #C54B1E;
+   font-size: 20pt;
+   font-weight: 600;
+}
+#container-man p {
+   text-align: center;
+}
